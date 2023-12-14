@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="dark">
+    <section class="container">
+        <header>Formulario de inscripción</header>
+        <form class="form" action="#">
+            <div class="input-box">
+                <label>Nombre completo</label>
+                <input required="" placeholder="Ingresa nombre completo" type="text">
+            </div>
+            <div class="column">
+                <div class="input-box">
+                  <label>Número de teléfono</label>
+                  <input required="" placeholder="Ingresa el número de teléfono" type="telephone">
+                </div>
+                <div class="input-box">
+                  <label>Fecha de nacimiento</label>
+                  <input required="" placeholder="Ingresar direxc" type="date">
+                </div>
+            </div>
+            <div class="gender-box">
+              <label>Género</label>
+              <div class="gender-option">
+                <div class="gender">
+                  <input checked="" name="gender" id="check-male" type="radio">
+                  <label for="check-male">Masculino</label>
+                </div>
+                <div class="gender">
+                  <input name="gender" id="check-female" type="radio">
+                  <label for="check-female">Femenino</label>
+                </div>
+                <div class="gender">
+                  <input name="gender" id="check-other" type="radio">
+                  <label for="check-other">Prefiero no decirlo</label>
+                </div>
+              </div>
+            </div>
+            <div class="input-box address">
+              <label>Dirección</label>
+              <input required="" placeholder="Escribe tu dirección" type="text">
+              <div class="column">
+                <div class="select-box">
+                  <select>
+                    <option hidden="">País</option>
+                    <option>Venezuela</option>
+                    <option>Colombia</option>
+                    <option>Chile</option>
+                    <option>Argentina</option>
+                  </select>
+                </div>
+              <input required="" placeholder="Ingresa tu ciudad" type="text">
+              </div>
+            </div>
+            <button>Enviar</button>
+        </form>
+      </section>
+</body>
+</html>
